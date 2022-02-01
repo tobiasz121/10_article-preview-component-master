@@ -1,0 +1,61 @@
+body, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.3rem;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+i {
+    font-size: 24px;
+}
+
+.container {
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    width:73rem;
+    height:28rem;
+    border-radius: 2rem;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image {
+    width:28.5rem;
+    height: 100%;
+    
+}
+
+.image > img {
+    width:auto;
+    height:100%;
+    border-radius: 2rem 0 0 2rem ;
+   
+       
+}
+
+.review {
+    background-color: red;    
+    position: relative;
+    z-index: 1;
+    border-radius: 0 2rem 2rem 0;
+}
+
+.review > * {
+    max-width: 80%;
+    margin: auto;
+    
+}
