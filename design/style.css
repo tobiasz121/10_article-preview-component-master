@@ -89,6 +89,8 @@ p {
     display: flex;   
     justify-content: flex-start; 
     height: 4rem;
+    width: 100%;
+    margin-top: 1.5rem;
 }
 
 .clearfix::after {
@@ -97,19 +99,87 @@ p {
     display: table;
   }
 
-.card > img {   
+.card > img:first-child {   
     float:left;
     width:auto;
     height: 100%;
+    border-radius: 2rem;   
+    
 }
 
+.card  h2 {
+    padding-top: 0.2rem;
+}
+
+.card-image {
+    margin-left: auto;
+    display: flex;
+    width:4rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.drop-down {
+    display: none;
+    width:25rem;
+    position: absolute;
+    top:-7.5rem;
+    background-color:#49556B;
+    height:5.5rem;
+    border-radius: 2rem;
+    overflow: visible;
+}
+
+.drop-down-inside {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.square {
+    width:20px;
+    height:20px;
+    background-color: #49556B;
+    position: absolute;
+    bottom:0;
+    right: 50%;
+    transform: rotateZ(45deg) translateX(50%);
+
+    
+}
+
+.card-image:hover .drop-down {
+    display: block;
+}
+
+
+
+.card-image > img {       
+    width:auto;
+    height:1.5rem;
+    background-color:#F0F3FA;
+    padding:1rem;
+    border-radius: 1.7rem;
+    
+
+}
+
+
+
 .flexed {
-    float:left
+    float:left;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
+    padding-left: 1rem;
+    
+}
+
+.flexed > p {
+    margin-top: 0.3rem;
 }
 
 
