@@ -35,10 +35,15 @@
             <div class="card-image">
               <div class="drop-down"> 
                   <div class="drop-down-inside">
-                    <div class="square"></div>                    
+                    <div class="square"></div>
+                    <p>SHARE</p> 
+                    <a href="https://facebook.com" target="_blank"><img src="images/icon-facebook.svg" alt=""></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/icon-twitter.svg" alt=""></a>   
+                    <a href="https://pinterest.com" target="_blank"><img src="images/icon-pinterest.svg" alt=""></a> 
                   </div>
               </div>
-              <img src="images/icon-share.svg" alt="share">
+              <div class="bck"><img src="images/icon-share.svg" alt="share"></div>
+              
             </div>            
           </div>
         </div>
@@ -46,5 +51,12 @@
       </div> 
     </div>
   </main>
+  <script>
+    const menu = document.querySelector('.drop-down')
+    const visibility = document.querySelector('.card-image')
+    visibility.addEventListener('click', () => {
+        menu.classList.toggle('visibility')
+    })
+  </script>
 </body>
 </html>
