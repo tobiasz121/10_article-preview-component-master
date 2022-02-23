@@ -34,7 +34,7 @@ h2 {
 p {
     line-height: 2.2rem;
     color:hsl(212, 23%, 69%);
-    
+
 }
 
 
@@ -62,19 +62,19 @@ p {
 .image {
     width:28.5rem;
     height: 100%;
-    
+
 }
 
 .image > img {
     width:auto;
     height:100%;
     border-radius: 2rem 0 0 2rem ;
-   
-       
+
+
 }
 
 .review {
-    background-color: white;    
+    background-color: white;
     position: relative;
     z-index: 1;
     border-radius: 0 2rem 2rem 0;
@@ -83,12 +83,12 @@ p {
 .review > * {
     max-width: 80%;
     margin: auto;
-    
+
 }
 
 .card {
-    display: flex;   
-    justify-content: flex-start; 
+    display: flex;
+    justify-content: flex-start;
     height: 4rem;
     width: 100%;
     margin-top: 1.5rem;
@@ -100,12 +100,12 @@ p {
     display: table;
   }
 
-.card > img:first-child {   
+.card > img:first-child {
     float:left;
     width:auto;
     height: 100%;
-    border-radius: 2rem;   
-    
+    border-radius: 2rem;
+
 }
 
 .card  h2 {
@@ -123,7 +123,7 @@ p {
 
 /* .card-image:hover > img {
     filter:brightness(100%);
-    
+
 } */
 
 .bck:hover {
@@ -173,20 +173,20 @@ p {
 
 .drop-down-inside > a{
     padding-left:1rem;
-  
+
   }
 
 .square {
     width:20px;
     height:20px;
-    background-color: #49556B;    
+    background-color: #49556B;
     position: absolute;
     z-index: -1;
     bottom:0;
     right: 50%;
     transform: rotateZ(45deg) translateX(50%);
 
-    
+
 }
 
 
@@ -196,13 +196,13 @@ p {
 
 
 
-.card-image > img {       
+.card-image > img {
     width:auto;
     height:1.5rem;
     background-color:#F0F3FA;
     padding:1rem;
     border-radius: 1.7rem;
-    
+
 
 }
 
@@ -216,7 +216,7 @@ p {
     justify-content: center;
     height: 100%;
     padding-left: 1rem;
-    
+
 }
 
 .flexed > p {
@@ -241,7 +241,7 @@ p {
 
 
 @media screen and (max-width:725px){
-    
+
     html {
         font-size: 55%;
     }
@@ -260,19 +260,19 @@ p {
     .image {
         width:100%;
         height: auto;
-        
+
     }
-    
+
     .image > img {
         width:100%;
         height:auto;
         border-radius: 2rem 2rem 0 0 ;
-       
-           
+
+
     }
 
     .review {
-        
+
         border-radius: 0 0 2rem 2rem;
     }
 
@@ -281,18 +281,18 @@ p {
         margin-top: 1rem ;
     }
 
-    
+
     .card {
-    display: flex;   
-    justify-content: flex-start; 
+    display: flex;
+    justify-content: flex-start;
     height: 4rem;
     width: 100%;
     margin-top: 2.5rem;
     margin-bottom: 2rem;
     }
-    
 
-    .drop-down {        
+
+    .drop-down {
         width:100%;
         position: absolute;
         bottom:0;
@@ -320,18 +320,18 @@ p {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-    
+
     }
 
     .drop-down-inside > a {
         padding-left: 2rem;
     }
 
-    p {
+    .drop-down-inside > p {
         padding-left: 4rem;
     }
-    
 
-    
+
+
 
 }
